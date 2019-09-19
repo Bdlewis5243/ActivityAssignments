@@ -18,3 +18,18 @@
     #print("That's really hot!")
 #else:
     #print("The water is not boiling")
+
+#Activity 07
+grade = int(input("Enter your grade: "))
+if grade > 100 < 0:
+    print("invalid grade entered")
+elif grade >= 90:
+    print("Very good!")
+elif grade >= 80 <= 90:
+    print("Good!")
+elif grade >= 70 <= 80:
+    print("Satisfactory.")
+elif grade >= 60 <= 70:
+    print("Fair")
+else:
+    print("Poor")
