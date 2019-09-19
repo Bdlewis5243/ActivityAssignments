@@ -21,7 +21,7 @@
 
 #Activity 07
 grade = int(input("Enter your grade: "))
-if grade > 100 < 0:
+if grade > 100 or grade < 0:
     print("invalid grade entered")
 elif grade >= 90:
     print("Very good!")
