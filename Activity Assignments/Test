@@ -1,0 +1,140 @@
+#Activity 06
+
+#originalPrice = float(input("enter the original cost of the item: "))
+#salePrice = float(input("Enter the sale price "))
+#percentOff = int((originalPrice - salePrice) / originalPrice * 100)
+#print("Original price: $", format(originalPrice, ".2f"))
+#print("Sale price: $", format(salePrice, ".2f"))
+#print("Percent off: ", format(percentOff, "d"), "%",)
+#if percentOff >= 50:
+    #print("You got a great sale!")
+    #print("Congratulations")
+#print('Done')
+
+#temperatureString = input("Enter the water temperature in degrees Fahrenheit: ")
+#temperature = int(temperatureString)
+#if temperature >= 212:
+    #print("Water is boiling")
+    #print("That's really hot!")
+#else:
+    #print("The water is not boiling")
+
+#Activity 07
+
+#grade = int(input("Enter your grade: "))
+#if grade > 100 or grade < 0:
+    #print("invalid grade entered")
+#elif grade >= 90:
+    #print("Very good!")
+#elif grade >= 80 <= 90:
+    #print("Good!")
+#elif grade >= 70 <= 80:
+    #print("Satisfactory.")
+#elif grade >= 60 <= 70:
+    #print("Fair")
+#else:
+    #print("Poor")
+
+#Activity 08
+
+#value = int(input("Please enter a number between 1 and 10:  "))
+#hile value > 10 or value < 1:
+    #print("You need to enter a value between 1 and 10")
+    #value = int(input())
+#print(value)
+
+#Activity 09
+
+#name = input("Enter your name: ")
+#for x in range(4):
+    #print(name)
+
+#for x in range(3, 20, 2):
+    #print(x, end=" ")
+
+#numIterations = 6
+#for x in range(1, numIterations+1):
+    #print(x, end= "  ")
+
+#for x in range(3,18+3, 3):
+    #print(x, end= " ")
+
+#favorite = input("enter your favorite ice cream flavor: ")
+#for x in range(1,5):
+    #print(str(x) + ".", favorite, end="\t")
+
+#total = 0
+#for x in range(5):
+    #number = int(input("Enter a number: "))
+    #total += number
+#print("the total is:",total)
+
+#for x in range(5, 505, 5):
+    #print(x, end="\t")
+
+#Activity 10
+
+#numOne = int(input("how many would you like on the y axis: "))
+#numTwo = int(input("How many would you like on the x axis: "))
+#name = "4"
+#for x in range(numOne):
+    #for x in range(numTwo):
+        #print(name + " ", end=" ")
+    #print()
+
+#height = int(input("Enter height: "))
+#column = int(input("Enter column: "))
+#value = 1
+#for x in range(height):
+    #for x in range(column):
+        #print(value, end=" ")
+    #value += 1
+    #print()
+
+
+#for numStudent in range(3):
+    #total = 0
+    #studentName = input("Enter the name of student " + str(numStudent +1) + ":")
+    #for scoreNum in range(3):
+        #score = int(input("Enter score 1: "))
+        #total = total + score
+    #average = total/3
+    #print("name: " + studentName)
+    #print("Average: ", average)
+
+# Activity 11
+
+#print(abs(4.5))
+#print(pow(5, 3))
+#print(pow(49, .5))
+#print(int(34.8))
+#print(round(-5.6))
+#import random
+#print(random.randint(4, 10))
+
+#import math
+#x = 4.7
+#y = 5.3
+#z = -4.8
+#a = -3.2
+#print(math.ceil(x))
+#print(math.ceil(y))
+#print(math.ceil(z))
+#print(math.ceil(a))
+#print(math.floor(x))
+#print(math.floor(y))
+#print(math.floor(z))
+#print(math.floor(a))
+
+#doAgain = True
+#while doAgain:
+    #num1 = int(input("Enter first number: "))
+    #num2 = int(input("Enter second number: "))
+    #num3 = int(input("Enter third number: "))
+    #num4 = int(input("Enter fourth number: "))
+    #maxNum1 = max(num1, num2, num3, num4)
+    #print("The largest of the four numbers is:", maxNum1)
+    #another = input("Type 'y' to find another max number "+ "or any other key to quit: ")
+    #if another != 'y':
+        #doAgain = False
+#print("Done!")
